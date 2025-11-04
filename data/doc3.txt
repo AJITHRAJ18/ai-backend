@@ -1,0 +1,4 @@
+How they work
+Vector embeddings: AI models convert unstructured data (like images or text) into high-dimensional vectors, where the position of the vector represents the data's characteristics.
+Indexing: Vector databases use specialized indexes, such as Hierarchical Navigable Small World (HNSW) or Inverted File Index (IVF), to efficiently search through these high-dimensional vectors.
+Similarity search: Instead of an exact match, a query is performed by finding the "nearest neighbors" in the vector space, which are the most similar data points based on a distance metric. This allows for contextual and semantic searches, like finding products "similar" to one a user likes, even if they don't have the same exact keywords. 
